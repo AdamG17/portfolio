@@ -1,0 +1,57 @@
+/*This is a custom CSS stylesheet*/
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,900,200italic,400italic,700italic,900italic|Passion+One:400,700,900);
+/*font-family: 'Source Sans Pro', sans-serif;*/
+/*font-family: 'Sarpanch', sans-serif;*/
+
+h1, h2, h3 {
+	font-family: 'Passion One', cursive;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+body {
+	padding-top: 50px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+	position: relative;
+}
+
+.navbar	{
+	border-radius: 0;
+}
+
+.carousel-inner {
+	width: 100%;
+	height: 700px;
+	background-color: #CCC;
+}
+
+.content-container {
+	padding: 10%;
+}
+
+
+/*FOOTER*/
+
+footer {
+	background-color: rgba(0,0,0,0.9);
+	color: #FFF;
+	font-size: .8em;
+	position:fixed;
+   	left:0px;
+   	bottom:0px;
+   	height:50px;
+   	width:100%;
+   	padding: 10px;
+}
+
+footer a {
+	color: #CCC;
+	text-decoration: none;
+}
+
+footer a:hover{
+	color: teal;
+}
